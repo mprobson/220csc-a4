@@ -2,11 +2,18 @@
 
 Due Date: 11/5 at midnight
 
-## Algorithms
+## Instructions
+
+Implement the matrix multiply (matmul) A * B = C algorithm in three variations:
 
 1. CPU Matrix Multiply
 2. GPU Matrix Multiply
 3. GPU Tiled Matirx Multiply
+4. GPU cuBLAS Library Call
+
+As before, you should collect timing data and analyze the results for increasing
+matrix sizes. That is, at what point does the tiled approach pay off in terms
+of computational time/speed?
 
 ## Reflection Questions
 
