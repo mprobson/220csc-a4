@@ -1,6 +1,6 @@
 # A4. Matrix Multiply
 
-Due Date: at midnight
+Due Date: 11/5 at midnight
 
 ## Algorithms
 
