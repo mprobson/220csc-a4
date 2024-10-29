@@ -17,7 +17,8 @@ of computational time/speed?
 
 ## Reflection Questions
 
-1. How did your speed compare with cuBLAS (openBLAS, blas)
+0. Analyze your results, when does it make sense to use the various approaches?
+1. How did your speed compare with cuBLAS
 2. What went well with this assignment?
 3. What was difficult?
 4. How would you approach differently?
