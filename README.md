@@ -4,7 +4,7 @@ Due Date: 11/5 at midnight
 
 ## Instructions
 
-Implement the matrix multiply (matmul) A * B = C algorithm in three variations:
+Implement the matrix multiply (matmul) A * B = C algorithm in four variations:
 
 1. CPU Matrix Multiply
 2. GPU Matrix Multiply
@@ -18,7 +18,7 @@ of computational time/speed?
 ## Reflection Questions
 
 0. Analyze your results, when does it make sense to use the various approaches?
-1. How did your speed compare with cuBLAS
+1. How did your speed compare with cuBLAS?
 2. What went well with this assignment?
 3. What was difficult?
 4. How would you approach differently?
