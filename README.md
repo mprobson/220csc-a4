@@ -39,7 +39,7 @@ of computational time/speed?
 After the assignment is due,
 you will be randomly assigned to review another student's submission.
 This will be as a pull request (PR).
-One is already opened by default (PR #1) so you can leave your comments there.
+One is already opened by default ([PR #1](../../pull/1)) so you can leave your comments there.
 You should look at the results, explanations, code, etc for
 understandability, readability, style, etc and provide
 any constructive or positive insights.
