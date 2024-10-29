@@ -72,7 +72,7 @@ If you encounter errors, I recommend two approahces:
 
 ## Extras
 
-4. Implement the conflict aware tiled matrix multiply
+0. Implement the conflict aware tiled matrix multiply
 1. Utilize `malloc`, `cudaMalloc`, and `cudaMemcpy`
 2. Handle non-square matricies
 3. Compare versus other (CPU) BLAS implementations e.g. openBlas, contact me
