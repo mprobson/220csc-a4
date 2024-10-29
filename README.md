@@ -60,11 +60,15 @@ If you encounter errors, I recommend two approahces:
 
 1. Adding print statements both inside your kernel function
    as well as outside.
-   This can include: ` ` to catch any cuda errors.
+   This can include: `printf("%s\n", cudaGetErrorString(cudaGetLastError()));`
+   to catch any cuda errors.
 
-memcheck
-
-print statements
+2. You can check to make sure that you code is not accessing unallocated memory
+   by utilizing NVIDIA's memory sanitizer tool.
+   You can run it ok `keroppi` using the following line.
+   ```sh
+   compute-sanitizer --tool memcheck ./your_cuda_executable_not_source
+   ```
 
 ## Extras
 
