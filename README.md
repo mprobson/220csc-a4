@@ -72,5 +72,8 @@ If you encounter errors, I recommend two approahces:
 
 ## Extras
 
-4. Row/cache/conflict aware matrix multiply
+4. Implement the conflict aware tiled matrix multiply
 1. Utilize `malloc`, `cudaMalloc`, and `cudaMemcpy`
+2. Handle non-square matricies
+3. Compare versus other (CPU) BLAS implementations e.g. openBlas, contact me
+   if they need to be installed on `keroppi`
