@@ -24,14 +24,15 @@ of computational time/speed?
 4. How would you approach differently?
 5. Anything else you want me to know?
 
-## Submission
+## Submission Checklist
+
 - [ ] Code
-  - [ ] CPU
-  - [ ] GPU
-  - [ ] Tiled
-- [ ] Runtimes/profiled code
-- [ ] Graph
-- [ ] Reflection
+  - [ ] CPU (.c)
+  - [ ] GPU (.cu)
+  - [ ] Tiled (.cu)
+  - [ ] cuBlas (.cu)
+- [ ] Graph/table of runtimes/profiled code results
+- [ ] Reflection (txt, md, pdf, etc)
 
 ## Peer Feedback
 
